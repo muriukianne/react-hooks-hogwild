@@ -8,7 +8,7 @@
   `porker_data.js` file. In the tile, display the **name** and **image** for
   each hog.
 - _When the user clicks on the hog tile_, display the other details about the
-  hog (its **specialty**, **weight**, **greased**, and **highest medal
+  hog (its **specialty**, **weight**, **greased**, and **highest medal**
   achieved**)
 - Allow the user to _filter_ the hogs that are **greased**
 - Allow the user to _sort_ the hogs based on **name** or **weight**
