@@ -1,8 +1,11 @@
 import React,{useState} from "react";
 
+// created a function to display details of an individual hog
 function HogTile({name,image,specialty,weight,greased,highestmedalachieved}){
 
+    // showlist is set to false so details are hidden by default
 const [showList,setshowList] = useState(false);
+
 
 const handleTileClick = () =>{
     setshowList((prevshowList) => ! prevshowList);
@@ -10,6 +13,7 @@ const handleTileClick = () =>{
 
 return(
     <div className=" ui two wide column"
+    
      onClick = {handleTileClick} style={{cursor : "pointer"}}>
         {/* displayed the name of the hog */}
         <h3>{name}</h3>
