@@ -5,8 +5,8 @@ import HogTile from "./HogTile"
 // created a function and passed the parameter hogs as a property
 function HogList({hogs}){
     return(
-        <div>
-            {/* mapped each hog in the hog array */}
+        <div >
+            {/* mapped eac h hog in the hog array */}
             {hogs.map((hog) => (
                 <HogTile 
                 // passed a unique key for the hog tile based on each hog name
@@ -18,6 +18,7 @@ function HogList({hogs}){
                 weight={hog.weight}
                 highestmedalachieved={hog.highestmedalachieved}
                 greased={hog.greased}
+               
 
                  />
             )

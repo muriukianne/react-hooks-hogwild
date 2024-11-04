@@ -7,12 +7,13 @@ import hogs from "../porkers_data";
 
 function App() {
 	// used usestate to hold the array of hogs that was declared in the porkers_data.js
-	const [hogsData]= useState(hogs);
+	const [hogData] = useState(hogs)
     //used usestate tp keep track of sorting criteria 
 	const [sort,setSort] = useState("name")
 
 	// used usestate to show hogs that are only greased
 	const[greased,setGreased] = useState(false)
+
 
 	// created a function to sort hogs by name
     const filteredAndsortedHogs = [...hogs]
