@@ -82,4 +82,4 @@ function App() {
 // exporting the app component as a default export
 export default App;
 
-console.log(Anne)
+
